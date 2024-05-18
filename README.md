@@ -2,7 +2,7 @@
 
 A simple single-page application to link to your social media channels, created using SvelteKit, Skeleton UI, TypeScript, and deployed with Vercel.
 
-![image](https://github.com/ShawnEdgell/linktree-clone/assets/145321915/461e5520-19cf-4131-813c-72faf7064bc1)
+![image](https://github.com/ShawnEdgell/linktree-clone/assets/145321915/08e967b4-c544-41ce-a888-8796599b12bc)
 
 ## Overview
 
