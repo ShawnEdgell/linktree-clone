@@ -45,7 +45,7 @@
 <title>StillMilky Links</title>
 
 <div class="container h-full mx-auto flex flex-col justify-center max-w-sm items-center p-6">
-	<img src="./Milky.webp" alt="Milky" class="rounded-full w-36" />
+	<img src="./Milky.webp" alt="Milky" class="rounded-full w-36 h-36" />
 	<div class="flex flex-col items-center gap-2 mb-6">
 		<h1 class="text-2xl text-primary-500">@stillmilky</h1>
 		<p>Business Inquiries: milky.irl@gmail.com</p>
