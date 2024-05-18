@@ -44,7 +44,7 @@
 
 <title>StillMilky Links</title>
 
-<div class="container h-full mx-auto flex flex-col justify-center max-w-sm items-center p-6">
+<div class="container h-full mx-auto flex flex-col justify-center max-w-sm items-center p-4">
 	<img src="./Milky.webp" alt="Milky" class="rounded-full w-36 h-36" />
 	<div class="flex flex-col items-center gap-2 mb-6">
 		<h1 class="text-2xl text-primary-500">@stillmilky</h1>
@@ -52,8 +52,7 @@
 	</div>
 	<div class="flex flex-col w-full gap-2">
 		{#each allLinks as { href, label }}
-			<a {href} class="btn btn-lg variant-filled w-full" target="_blank"><strong>{label}</strong></a
-			>
+			<a {href} class="btn btn-lg variant-filled w-full" target="_blank">{label}</a>
 		{/each}
 	</div>
 	<footer class="mt-8 text-center text-sm">
