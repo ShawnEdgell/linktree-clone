@@ -29,7 +29,10 @@
 
 <title>StillMilky | Stats & Settings</title>
 
-<div class="container h-full mx-auto flex flex-col justify-center max-w-sm items-center p-4">
+<div
+	id="app"
+	class="container h-full mx-auto flex flex-col justify-center max-w-sm items-center p-4"
+>
 	<img src="./Milky.webp" alt="Milky" class="rounded-full w-24 h-24" />
 	<div class="flex flex-col items-center mb-6">
 		<h1 class="text-2xl text-primary-500">Stats & Settings</h1>
