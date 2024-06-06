@@ -7,7 +7,7 @@ export const Footer = component$(() => {
       <p>
         Made by{" "}
         <a
-          href="https://github.com/your-github-username"
+          href="https://github.com/ShawnEdgell/linktree-clone"
           class="text-blue-600 hover:underline"
         >
           Milky

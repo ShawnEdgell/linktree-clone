@@ -12,8 +12,7 @@ import { Footer } from "~/components/footer/footer";
 export default component$(() => {
   return (
     <div class="flex min-h-screen flex-col items-center justify-center ">
-      <div class="mb-8"></div>
-      <h1 class="mb-8 text-4xl font-bold">@stillmilky</h1>
+      <h1 class="mb-4 text-4xl font-bold">@stillmilky</h1>
       <p class="mb-6 text-center text-lg">Email: milky.irl@gmail.com</p>
       <div class="flex w-full max-w-md flex-col gap-3 px-4">
         <DiscordButton />
