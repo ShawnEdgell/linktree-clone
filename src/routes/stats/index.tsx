@@ -11,30 +11,30 @@ export default component$(() => {
       <p class="mb-6 text-center text-lg">Stats & Settings (Skater XL)</p>
       <div class="flex w-full max-w-md flex-col gap-3 px-4">
         <HomeButton />
-        <Button look="alert" class="w-full">
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_FishyStats.zip?alt=media&token=305d8e75-3569-43f3-b074-3ad615560e4e"
-            class="flex w-full items-center justify-center gap-2"
-          >
+        <a
+          href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_FishyStats.zip?alt=media&token=305d8e75-3569-43f3-b074-3ad615560e4e"
+          class="flex w-full items-center justify-center gap-2"
+        >
+          <Button look="alert" class="w-full">
             Fishy Stats (Latest)
-          </a>
-        </Button>
-        <Button look="alert" class="w-full">
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_SharkyStats.zip?alt=media&token=3d4abf7d-3f01-4393-8490-ae2e230ab29f"
-            class="flex w-full items-center justify-center gap-2"
-          >
+          </Button>
+        </a>
+        <a
+          href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_SharkyStats.zip?alt=media&token=3d4abf7d-3f01-4393-8490-ae2e230ab29f"
+          class="flex w-full items-center justify-center gap-2"
+        >
+          <Button look="alert" class="w-full">
             Sharky Stats
-          </a>
-        </Button>
-        <Button look="alert" class="w-full">
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_FroggyStats.zip?alt=media&token=0179b9fd-3d9c-4c36-a487-184c64644fb0"
-            class="flex w-full items-center justify-center gap-2"
-          >
+          </Button>
+        </a>
+        <a
+          href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_FroggyStats.zip?alt=media&token=0179b9fd-3d9c-4c36-a487-184c64644fb0"
+          class="flex w-full items-center justify-center gap-2"
+        >
+          <Button look="alert" class="w-full">
             Froggy Stats
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
       <Footer />
     </div>

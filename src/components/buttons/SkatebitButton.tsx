@@ -3,14 +3,14 @@ import { Button } from "~/components/ui/button/button";
 
 export const SkatebitButton = component$(() => {
   return (
-    <Button look="primary" class="w-full">
-      <a
-        href="https://skatebit.vercel.app/"
-        target="_blank"
-        class="flex w-full items-center justify-center gap-2"
-      >
+    <a
+      href="https://skatebit.vercel.app/"
+      target="_blank"
+      class="flex w-full items-center justify-center "
+    >
+      <Button look="primary" class="w-full">
         Skatebit (Modding Website)
-      </a>
-    </Button>
+      </Button>
+    </a>
   );
 });

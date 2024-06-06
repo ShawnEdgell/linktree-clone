@@ -3,18 +3,18 @@ import { Button } from "~/components/ui/button/button";
 
 export const TikTokButton = component$(() => {
   return (
-    <Button look="primary" class="w-full">
-      <a
-        href="https://www.tiktok.com/@iamstillmilky"
-        target="_blank"
-        class="flex w-full items-center justify-center gap-2"
-      >
+    <a
+      href="https://www.tiktok.com/@iamstillmilky"
+      target="_blank"
+      class="flex w-full items-center justify-center "
+    >
+      <Button look="primary" class="w-full">
         <svg
           fill="#000000"
           viewBox="0 0 32 32"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="mr-2 h-6 w-6"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g
@@ -29,7 +29,7 @@ export const TikTokButton = component$(() => {
           </g>
         </svg>
         TikTok
-      </a>
-    </Button>
+      </Button>
+    </a>
   );
 });

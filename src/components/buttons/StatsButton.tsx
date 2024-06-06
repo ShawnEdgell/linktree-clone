@@ -4,10 +4,10 @@ import { Link } from "@builder.io/qwik-city";
 
 export const StatsButton = component$(() => {
   return (
-    <Button look="secondary" class="w-full">
-      <Link href="/stats" class="flex w-full items-center justify-center gap-2">
+    <Link href="/stats" class="flex w-full items-center justify-center ">
+      <Button look="secondary" class="w-full">
         Stats & Settings
-      </Link>
-    </Button>
+      </Button>
+    </Link>
   );
 });

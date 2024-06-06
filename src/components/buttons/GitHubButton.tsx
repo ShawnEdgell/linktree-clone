@@ -3,19 +3,19 @@ import { Button } from "~/components/ui/button/button";
 
 export const GitHubButton = component$(() => {
   return (
-    <Button look="primary" class="w-full">
-      <a
-        href="https://github.com/ShawnEdgell"
-        target="_blank"
-        class="flex w-full items-center justify-center gap-2"
-      >
+    <a
+      href="https://github.com/ShawnEdgell"
+      target="_blank"
+      class="flex w-full items-center justify-center "
+    >
+      <Button look="primary" class="w-full">
         <svg
           viewBox="0 0 20 20"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           fill="#000000"
-          class="h-6 w-6"
+          class="mr-2 h-6 w-6"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g
@@ -55,7 +55,7 @@ export const GitHubButton = component$(() => {
           </g>
         </svg>
         GitHub
-      </a>
-    </Button>
+      </Button>
+    </a>
   );
 });

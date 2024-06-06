@@ -3,17 +3,17 @@ import { Button } from "~/components/ui/button/button";
 
 export const TwitchButton = component$(() => {
   return (
-    <Button look="primary" class="w-full">
-      <a
-        href="https://www.twitch.tv/stillmilky"
-        target="_blank"
-        class="flex w-full items-center justify-center gap-2"
-      >
+    <a
+      href="https://www.twitch.tv/stillmilky"
+      target="_blank"
+      class="flex w-full items-center justify-center "
+    >
+      <Button look="primary" class="w-full">
         <svg
           fill="#000000"
           viewBox="-0.5 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
+          class="mr-2 h-5 w-5"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g
@@ -26,7 +26,7 @@ export const TwitchButton = component$(() => {
           </g>
         </svg>
         Twitch
-      </a>
-    </Button>
+      </Button>
+    </a>
   );
 });
