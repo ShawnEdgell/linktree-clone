@@ -12,11 +12,19 @@ export default component$(() => {
       <div class="flex w-full max-w-md flex-col gap-3 px-4">
         <HomeButton />
         <a
+          href="https://firebasestorage.googleapis.com/v0/b/skatebit-65c51.appspot.com/o/Milky_October-2024_STATS.zip?alt=media&token=4587263d-3c04-49ee-b6b2-fd176cf2ceaf"
+          class="flex w-full items-center justify-center gap-2"
+        >
+          <Button look="alert" class="w-full">
+            Latest Stats (October 2024)
+          </Button>
+        </a>
+        <a
           href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_FishyStats.zip?alt=media&token=305d8e75-3569-43f3-b074-3ad615560e4e"
           class="flex w-full items-center justify-center gap-2"
         >
           <Button look="alert" class="w-full">
-            Fishy Stats (Latest)
+            Fishy Stats
           </Button>
         </a>
         <a
