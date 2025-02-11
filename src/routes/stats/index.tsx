@@ -12,7 +12,15 @@ export default component$(() => {
       <div class="flex w-full max-w-md flex-col gap-3 px-4">
         <HomeButton />
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/skatebit-65c51.appspot.com/o/Milky_October-2024_STATS.zip?alt=media&token=4587263d-3c04-49ee-b6b2-fd176cf2ceaf"
+          href="https://damp-limit-8cd1.milky-irl.workers.dev/BasicRealisticSettings.zip"
+          class="flex w-full items-center justify-center gap-2"
+        >
+          <Button look="alert" class="w-full">
+            Basic Realistic Stats (Goofy & Regular)
+          </Button>
+        </a>
+        <a
+          href="https://damp-limit-8cd1.milky-irl.workers.dev/MilkyLatest.zip"
           class="flex w-full items-center justify-center gap-2"
         >
           <Button look="alert" class="w-full">
@@ -20,7 +28,7 @@ export default component$(() => {
           </Button>
         </a>
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_FishyStats.zip?alt=media&token=305d8e75-3569-43f3-b074-3ad615560e4e"
+          href="https://damp-limit-8cd1.milky-irl.workers.dev/Fishy.zip"
           class="flex w-full items-center justify-center gap-2"
         >
           <Button look="alert" class="w-full">
@@ -28,7 +36,7 @@ export default component$(() => {
           </Button>
         </a>
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_SharkyStats.zip?alt=media&token=3d4abf7d-3f01-4393-8490-ae2e230ab29f"
+          href="https://damp-limit-8cd1.milky-irl.workers.dev/Sharky.zip"
           class="flex w-full items-center justify-center gap-2"
         >
           <Button look="alert" class="w-full">
@@ -36,7 +44,7 @@ export default component$(() => {
           </Button>
         </a>
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/stillmilkylive.appspot.com/o/Milky_FroggyStats.zip?alt=media&token=0179b9fd-3d9c-4c36-a487-184c64644fb0"
+          href="https://damp-limit-8cd1.milky-irl.workers.dev/Froggy.zip"
           class="flex w-full items-center justify-center gap-2"
         >
           <Button look="alert" class="w-full">
