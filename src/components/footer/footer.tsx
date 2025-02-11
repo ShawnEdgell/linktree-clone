@@ -10,7 +10,7 @@ export const Footer = component$(() => {
         Made by{" "}
         <a
           href="https://github.com/ShawnEdgell/linktree-clone"
-          class="text-blue-600 hover:underline"
+          class="text-blue-800 hover:underline"
         >
           Milky
         </a>
