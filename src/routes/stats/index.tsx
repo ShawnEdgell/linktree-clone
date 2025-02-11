@@ -7,8 +7,7 @@ import { Footer } from "~/components/footer/footer";
 export default component$(() => {
   return (
     <div class="flex min-h-screen flex-col items-center justify-center ">
-      <h1 class="mb-4 text-4xl font-bold">@stillmilky</h1>
-      <p class="mb-6 text-center text-lg">Stats & Settings (Skater XL)</p>
+      <h1 class="mb-6 text-2xl font-bold">Stats & Settings (Skater XL)</h1>
       <div class="flex w-full max-w-md flex-col gap-3 px-4">
         <HomeButton />
         <a
